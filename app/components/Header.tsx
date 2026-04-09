@@ -12,7 +12,6 @@ export default function Header() {
           <Link href="/">Home</Link>
           <Link href="/about">about us</Link>
           <Link href="/blog">Blog</Link>
-          <Link href="/blog/1">Single Blog </Link>
           <Link href="/dashboard">Dashboard </Link>
           <Link href="/docs">Docs </Link>
           <Link href="/docs/aa"> Docs A </Link>

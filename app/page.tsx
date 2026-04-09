@@ -2,31 +2,11 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Shiyal - Smart Web Solutions",
-  description: "Build fast, modern websites with Shiyal. in Next.js, Shopify, and custom development.",
-  
-  openGraph: {
-    title: "Shiyal - Smart Web Solutions",
-    description: "Modern websites and web apps for your business.",
-    url: "https://shiyal.com",
-    siteName: "Shiyal",
-    images: [
-      {
-        url: "https://shiyal.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Shiyal Website",
-      },
-    ],
-    type: "website",
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Shiyal - Smart Web Solutions",
-    description: "Modern web development with Next.js & Shopify",
-    images: ["https://shiyal.com/og-image.jpg"],
-  },
+  description: "Shiyal provides modern web development services including Next.js, Shopify, and custom website solutions to grow your business online.",
+  keywords: ["Shiyal", "web development", "Next.js", "Shopify", "freelancer", "India"],
+  authors: [{ name: "Shiyal" }],
 };
+
 export default function Home() {
   
   return (

@@ -32,10 +32,10 @@ export default function Page() {
           <ul className="grid sm:grid-cols-3 grid-cols-1 gap-3">
             {data?.slice(0,cou).map((item: Posts) => (
               <li className="p-3 cursor-pointer border border-slate-800 hover:border-slate-600 bg-slate-900 rounded-md " key={item.id}>
-                <h3 className="text-lg font-semibold text-amber-700">{item.userId}</h3>
+                <h3 className="text-lg font-semibold text-amber-700">id:{item.id} userId:{item.userId}</h3>
                 <h3 className="text-lg font-semibold text-amber-700">{item.title}</h3>
                 <div> {item.body}</div>
-                <Link className="mt-3 bg-slate-700 px-3 py-2 text-sm rounded-md inline-block" href={`/blog/${item.id}`}>Read More...</Link>
+                <Link className="mt-3 bg-slate-700 px-3 py-2 text-sm rounded-md inline-block" href={`/blog/${(item.title)?.split(' ').join('-')}`}>Read More...</Link>
               </li>
             ))}
           </ul>

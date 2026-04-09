@@ -1,17 +1,29 @@
 import Link from "next/link";
-
-async function getData(id:string) {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+import { Metadata } from "next";
+async function getData() {
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/`);
   return res.json();
 }
 
-export default async function BlogPostPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}) {
-  const { slug } = await params
-  const {id, title, body} = await getData(slug)
+type Props = {
+  params: Promise<{ slug: string }>;
+}
+
+export const generateMetadata = async ({params}:Props):Promise<Metadata> => {
+  const slug = (await params).slug;
+  return {
+    title :`Blog title is ${slug.split('-').join(" ")}`
+  }
+}
+
+export default async function BlogPostPage({params}: Props) {
+  const { slug } = await params;
+
+  const data = await getData();
+  const findTitle = data.find((itm:{title:string}) => itm.title === slug.split('-').join(" "))
+
+  const  {id, title, body} = findTitle;
+
  
   return (
     <section className="py-10">

@@ -17,6 +17,7 @@ export default function Header() {
           <Link href="/docs">Docs </Link>
           <Link href="/docs/aa"> Docs A </Link>
           <Link href="/docs/aa/bb"> Docs B </Link>
+          <Link href="/contact"> Contact us </Link>
           <Link 
             className="py-2 px-5 inline-block rounded-lg text-amber-600 border border-amber-700 hover:bg-amber-700 hover:!text-white" 
             href="/login"

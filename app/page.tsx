@@ -16,7 +16,7 @@ export default function Home() {
       <section className="py-10">
         <div className="container mx-auto">
             <div className="grid grid-cols-4 gap-3">
-              <div className="rounded-3xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
+              <div className="rounded-2xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
                 <Image 
                   className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
                   src="/images/pexels-kubra.jpg"
@@ -25,7 +25,7 @@ export default function Home() {
                   height={370}
                 />
               </div>
-              <div className="rounded-3xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
+              <div className="rounded-2xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
                 <Image 
                   className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
                   src="/images/pexels-meomupmofilm.jpg"
@@ -34,7 +34,7 @@ export default function Home() {
                   height={370}
                 />
               </div>
-              <div className="rounded-3xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
+              <div className="rounded-2xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
                 <Image 
                   className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
                   src="/images/pexels-matt-liatkouski.jpg"
@@ -43,7 +43,7 @@ export default function Home() {
                   height={370}
                 />
               </div>
-              <div className="rounded-3xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
+              <div className="rounded-2xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
                 <Image 
                   className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
                   src="/images/pexels-alaritammsalu.jpg"
@@ -61,49 +61,49 @@ export default function Home() {
           <div className="relative flex overflow-x-clip w-auto">
             <div className="w-full flex flex-row whitespace-nowrap animate-marquee">
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet. 8</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
@@ -111,49 +111,49 @@ export default function Home() {
             </div>
             <div className="w-full absolute top-0 whitespace-nowrap flex flex-row animate-marquee2">
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>
               </div>
               <div className="px-2 min-w-[25%]">
-                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-3xl rounded-bl-none">
+                <div className="p-7 text-wrap border bg-white border-slate-200 group rounded-2xl rounded-bl-none">
                   <h3 className="mb-3 text-2xl font-semibold text-amber-700">Lorem ipsum dolor sit amet.</h3>
                   <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint ratione facilis? Suscipit molestiae mollitia hic molestias, labore recusandae dolore quasi enim consequatur et consectetur, a sint vel nisi sit?</div>
                 </div>

@@ -11,48 +11,46 @@ export default function Home() {
   
   return (
     <>
-
-     
       <section className="py-10">
         <div className="container mx-auto">
-            <div className="grid grid-cols-4 gap-3">
-              <div className="rounded-2xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
-                <Image 
-                  className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
-                  src="/images/pexels-kubra.jpg"
-                  alt="logo"
-                  width={630}
-                  height={370}
-                />
-              </div>
-              <div className="rounded-2xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
-                <Image 
-                  className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
-                  src="/images/pexels-meomupmofilm.jpg"
-                  alt="logo"
-                  width={630}
-                  height={370}
-                />
-              </div>
-              <div className="rounded-2xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
-                <Image 
-                  className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
-                  src="/images/pexels-matt-liatkouski.jpg"
-                  alt="logo"
-                  width={630}
-                  height={370}
-                />
-              </div>
-              <div className="rounded-2xl transition-all overflow-hidden group border-2 border-slate-700 hover:border-amber-800 rounded-bl-none">
-                <Image 
-                  className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
-                  src="/images/pexels-alaritammsalu.jpg"
-                  alt="logo"
-                  width={630}
-                  height={370}
-                />
-              </div>
+          <div className="grid grid-cols-4 gap-3">
+            <div className="rounded-2xl transition-all overflow-hidden group border border-slate-300 hover:border-slate-800 rounded-bl-none">
+              <Image 
+                className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
+                src="/images/pexels-kubra.jpg"
+                alt="logo"
+                width={630}
+                height={370}
+              />
             </div>
+            <div className="rounded-2xl transition-all overflow-hidden group border border-slate-300 hover:border-slate-800 rounded-bl-none">
+              <Image 
+                className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
+                src="/images/pexels-meomupmofilm.jpg"
+                alt="logo"
+                width={630}
+                height={370}
+              />
+            </div>
+            <div className="rounded-2xl transition-all overflow-hidden group border border-slate-300 hover:border-slate-800 rounded-bl-none">
+              <Image 
+                className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
+                src="/images/pexels-matt-liatkouski.jpg"
+                alt="logo"
+                width={630}
+                height={370}
+              />
+            </div>
+            <div className="rounded-2xl transition-all overflow-hidden group border border-slate-300 hover:border-slate-800 rounded-bl-none">
+              <Image 
+                className="w-full object-cover max-h-96 transition-all group-hover:scale-110"
+                src="/images/pexels-alaritammsalu.jpg"
+                alt="logo"
+                width={630}
+                height={370}
+              />
+            </div>
+          </div>
         </div>
       </section>
 

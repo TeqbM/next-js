@@ -11,8 +11,11 @@ type Props = {
 
 export const generateMetadata = async ({params}:Props):Promise<Metadata> => {
   const slug = (await params).slug;
+  console.log(slug);
   return {
-    title :`Blog title is ${slug.split('-').join(" ")}`
+    title :`Blog title is ${slug.split('-').join(" ")}`,
+    description:slug.split('-').join(" ")
+
   }
 }
 

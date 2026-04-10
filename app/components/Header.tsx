@@ -15,21 +15,21 @@ const navLinks = [
 export default function Header() {
   const pathname = usePathname();
   return (
-    <header className="bg-gray-900 p-5 border border-slate-700 py-2 sticky top-2 transition-all z-50  border-b rounded-lg">
+    <header className="bg-white p-5 py-2 sticky top-2 transition-all z-50 rounded-lg border border-slate-200/50  0 shadow-lg shadow-slate-700/5">
       <div className="flex justify-between items-center">
         <Link
-          className="text-2xl text-slate-400 hover:text-white font-semibold tracking-widest"
+          className="text-2xl text-slate-700 hover:text-amber-700 font-medium tracking-wider"
           href="/"
         >
           SH<span className="text-amber-700">i</span>YAL
         </Link>
 
-        <nav className="flex items-center flex-wrap sm:gap-5 gap-2 sm:text-base text-xs [&>_a]:hover:text-amber-700">
+        <nav className="flex items-center flex-wrap sm:gap-5 gap-2 sm:text-base text-xs">
           {navLinks.map((link) => {
             const isActive = pathname === link.url;
             return (
               <Link
-                className={`border-b-2 hover:border-amber-700  ${isActive ? "text-amber-700 border-amber-700" : "border-slate-900 "}`}
+                className={`text-slate-700 border-b hover:border-amber-700 hover:text-amber-700  ${isActive ? "!text-amber-700 border-amber-700" : "border-transparent "}`}
                 href={link.url}
                 key={link.name}
               >
@@ -45,7 +45,7 @@ export default function Header() {
             Login
           </Link>
           <Link
-            className="py-2 px-5 inline-block rounded-lg bg-amber-800 border border-amber-700 hover:bg-amber-700 hover:!text-white"
+            className="py-2 px-5 inline-block rounded-lg bg-amber-800 border border-amber-700 hover:bg-amber-700 text-white"
             href="/register"
           >
             Register
